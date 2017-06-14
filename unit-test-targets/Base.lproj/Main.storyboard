@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Zapfino.ttf">
+            <string>Zapfino</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="unit_test_targets" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZfP-YO-Ynr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_001" translatesAutoresizingMaskIntoConstraints="NO" id="wcV-Bg-xem">
+                                <rect key="frame" x="-27.5" y="-49.5" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" x " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4A-DL-8u2">
+                                <rect key="frame" x="62.5" y="81" width="195" height="406"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="120"/>
+                                <color key="textColor" white="0.10220424107142857" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsg-U6-mU5">
+                                <rect key="frame" x="126" y="341" width="69" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="DEAL">
+                                    <color key="titleColor" white="0.89771205359999995" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wcV-Bg-xem" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="04E-fO-hIx"/>
+                            <constraint firstItem="f4A-DL-8u2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="27u-2C-8iq"/>
+                            <constraint firstItem="ZfP-YO-Ynr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ARH-hq-5BK"/>
+                            <constraint firstItem="wcV-Bg-xem" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H40-ec-YQ7"/>
+                            <constraint firstAttribute="bottom" secondItem="ZfP-YO-Ynr" secondAttribute="bottom" id="JlF-HJ-YmO"/>
+                            <constraint firstItem="jsg-U6-mU5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NRw-xl-Nn5"/>
+                            <constraint firstItem="f4A-DL-8u2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="awe-BO-Whg"/>
+                            <constraint firstAttribute="trailing" secondItem="ZfP-YO-Ynr" secondAttribute="trailing" id="dFd-2J-sqN"/>
+                            <constraint firstItem="ZfP-YO-Ynr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ngF-TI-ktL"/>
+                            <constraint firstItem="jsg-U6-mU5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qTq-GT-uye"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="centerLogoLabelConstraint" destination="27u-2C-8iq" id="Pk9-of-48V"/>
+                        <outlet property="dealButton" destination="jsg-U6-mU5" id="EGQ-AM-TuC"/>
+                        <outlet property="gradientView" destination="ZfP-YO-Ynr" id="3v7-cB-oMC"/>
+                        <outlet property="launchImageView" destination="wcV-Bg-xem" id="GrR-V8-FEj"/>
+                        <outlet property="logoLabel" destination="f4A-DL-8u2" id="rpZ-fc-vNV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_001" width="375" height="667"/>
+    </resources>
+</document>
