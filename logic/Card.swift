@@ -1,30 +1,49 @@
-////
-////  Card.swift
-////  logic
-////
-////  Created by Pivotal on 6/13/17.
-////  Copyright © 2017 LST. All rights reserved.
-////
 //
-//import Foundation
+//  Card.swift
+//  logic
 //
-//enum suite : Comparable {
-//    static func <(lhs: suite, rhs: suite) -> Bool {
-//        switch <#value#> {
-//        case <#pattern#>:
-//            <#code#>
-//        default:
-//            <#code#>
-//        }
-//    }
-//    
-//    case diamond
-//    case club
-//    case heart
-//    case spade
-//}
+//  Created by Pivotal on 6/13/17.
+//  Copyright © 2017 LST. All rights reserved.
 //
-//struct Card {
-//    let face
-//}
+
+import Foundation
+
+public struct Card : Equatable, Hashable {
+    
+    let suite : Suite
+    let value : Value
+    
+    enum Suite {
+        case diamond
+        case club
+        case heart
+        case spade
+    }
+    
+    enum Value {
+        case Ace
+        case Two
+        case Three
+        case Four
+        case Five
+        case Six
+        case Seven
+        case Eight
+        case Nine
+        case Ten
+        case Jack
+        case Queen
+        case King
+    }
+    
+    public static func ==(lhs: Card, rhs: Card) -> Bool {
+        return lhs.value == rhs.value && lhs.suite == rhs.suite
+    }
+    
+    public 	var hashValue: Int {
+        get {
+            return self.suite.hashValue ^ self.value.hashValue
+        }
+    }
+}
 

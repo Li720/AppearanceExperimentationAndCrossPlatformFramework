@@ -10,14 +10,21 @@
 		AE08C63B1EF05C9900D3B760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE558C161EF0279200764620 /* Main.storyboard */; };
 		AE08C63C1EF05C9900D3B760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE558C1B1EF0279200764620 /* LaunchScreen.storyboard */; };
 		AE558C131EF0279200764620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558C121EF0279200764620 /* AppDelegate.swift */; };
-		AE558C151EF0279200764620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558C141EF0279200764620 /* ViewController.swift */; };
+		AE558C151EF0279200764620 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558C141EF0279200764620 /* StartViewController.swift */; };
 		AE558C281EF0279200764620 /* unit_test_targetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558C271EF0279200764620 /* unit_test_targetsTests.swift */; };
 		AE558C331EF0279200764620 /* unit_test_targetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558C321EF0279200764620 /* unit_test_targetsUITests.swift */; };
-		AE558CE41EF03B4D00764620 /* logicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558CE31EF03B4D00764620 /* logicTests.swift */; };
 		AE558CE61EF03B4D00764620 /* logic.h in Headers */ = {isa = PBXBuildFile; fileRef = AE558CD61EF03B4D00764620 /* logic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE558CE91EF03B4D00764620 /* logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE558CD41EF03B4D00764620 /* logic.framework */; };
 		AE558CEA1EF03B4D00764620 /* logic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE558CD41EF03B4D00764620 /* logic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AE9ED1841EF070F400056EFD /* bg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AE9ED1831EF070F300056EFD /* bg.mp4 */; };
+		AE72DA9C1EF1D5190033BFF4 /* StandardDeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DA9B1EF1D5190033BFF4 /* StandardDeckSpec.swift */; };
+		AE72DA9E1EF1E1440033BFF4 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DA9D1EF1E1440033BFF4 /* Dealer.swift */; };
+		AE72DAA01EF1E5790033BFF4 /* StandardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DA9F1EF1E5790033BFF4 /* StandardDeck.swift */; };
+		AE72DAA21EF2DC1B0033BFF4 /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA11EF2DC1B0033BFF4 /* DeckSpec.swift */; };
+		AE72DAA51EF31DD50033BFF4 /* DLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA31EF319D10033BFF4 /* DLButton.swift */; };
+		AE72DAA71EF328490033BFF4 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA61EF328490033BFF4 /* ThemeManager.swift */; };
+		AE72DAA91EF32ABD0033BFF4 /* DefaultDLTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA81EF32ABD0033BFF4 /* DefaultDLTheme.swift */; };
+		AE72DAAB1EF32AC50033BFF4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAAA1EF32AC50033BFF4 /* Theme.swift */; };
+		AE72DAAD1EF32E780033BFF4 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAAC1EF32E780033BFF4 /* StartView.swift */; };
 		AE9ED1861EF07F4600056EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9ED1851EF07F4600056EFD /* Assets.xcassets */; };
 		AEBD6D611EF08F0F003C8E18 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD6D601EF08F0F003C8E18 /* Deck.swift */; };
 		AEBD6D631EF08F3F003C8E18 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD6D621EF08F3F003C8E18 /* Card.swift */; };
@@ -75,7 +82,7 @@
 		AE08C63A1EF05BFD00D3B760 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		AE558C0F1EF0279200764620 /* unit-test-targets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unit-test-targets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE558C121EF0279200764620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE558C141EF0279200764620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE558C141EF0279200764620 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		AE558C171EF0279200764620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE558C1C1EF0279200764620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE558C1E1EF0279200764620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,9 +96,16 @@
 		AE558CD61EF03B4D00764620 /* logic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logic.h; sourceTree = "<group>"; };
 		AE558CD71EF03B4D00764620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE558CDC1EF03B4D00764620 /* logicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE558CE31EF03B4D00764620 /* logicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logicTests.swift; sourceTree = "<group>"; };
 		AE558CE51EF03B4D00764620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE9ED1831EF070F300056EFD /* bg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = bg.mp4; path = ../../../Downloads/bg.mp4; sourceTree = "<group>"; };
+		AE72DA9B1EF1D5190033BFF4 /* StandardDeckSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardDeckSpec.swift; sourceTree = "<group>"; };
+		AE72DA9D1EF1E1440033BFF4 /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		AE72DA9F1EF1E5790033BFF4 /* StandardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardDeck.swift; path = ../logic/StandardDeck.swift; sourceTree = "<group>"; };
+		AE72DAA11EF2DC1B0033BFF4 /* DeckSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckSpec.swift; sourceTree = "<group>"; };
+		AE72DAA31EF319D10033BFF4 /* DLButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLButton.swift; sourceTree = "<group>"; };
+		AE72DAA61EF328490033BFF4 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		AE72DAA81EF32ABD0033BFF4 /* DefaultDLTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDLTheme.swift; sourceTree = "<group>"; };
+		AE72DAAA1EF32AC50033BFF4 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AE72DAAC1EF32E780033BFF4 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		AE9ED1851EF07F4600056EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBD6D601EF08F0F003C8E18 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		AEBD6D621EF08F3F003C8E18 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -172,12 +186,16 @@
 			isa = PBXGroup;
 			children = (
 				AE558C121EF0279200764620 /* AppDelegate.swift */,
-				AE558C141EF0279200764620 /* ViewController.swift */,
+				AE558C141EF0279200764620 /* StartViewController.swift */,
+				AE72DAAC1EF32E780033BFF4 /* StartView.swift */,
+				AE72DA9F1EF1E5790033BFF4 /* StandardDeck.swift */,
 				AE558C161EF0279200764620 /* Main.storyboard */,
-				AE9ED1831EF070F300056EFD /* bg.mp4 */,
 				AE558C1B1EF0279200764620 /* LaunchScreen.storyboard */,
 				AE558C1E1EF0279200764620 /* Info.plist */,
 				AE9ED1851EF07F4600056EFD /* Assets.xcassets */,
+				AE72DAA61EF328490033BFF4 /* ThemeManager.swift */,
+				AE72DAA81EF32ABD0033BFF4 /* DefaultDLTheme.swift */,
+				AE72DAAA1EF32AC50033BFF4 /* Theme.swift */,
 			);
 			path = "unit-test-targets";
 			sourceTree = "<group>";
@@ -207,6 +225,8 @@
 				AE558CD71EF03B4D00764620 /* Info.plist */,
 				AEBD6D601EF08F0F003C8E18 /* Deck.swift */,
 				AEBD6D621EF08F3F003C8E18 /* Card.swift */,
+				AE72DA9D1EF1E1440033BFF4 /* Dealer.swift */,
+				AE72DAA31EF319D10033BFF4 /* DLButton.swift */,
 			);
 			path = logic;
 			sourceTree = "<group>";
@@ -214,9 +234,10 @@
 		AE558CE21EF03B4D00764620 /* logicTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE558CE31EF03B4D00764620 /* logicTests.swift */,
 				AE558CE51EF03B4D00764620 /* Info.plist */,
 				AEBD6D641EF090DD003C8E18 /* CardSpec.swift */,
+				AE72DA9B1EF1D5190033BFF4 /* StandardDeckSpec.swift */,
+				AE72DAA11EF2DC1B0033BFF4 /* DeckSpec.swift */,
 			);
 			path = logicTests;
 			sourceTree = "<group>";
@@ -395,7 +416,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE08C63B1EF05C9900D3B760 /* Main.storyboard in Resources */,
-				AE9ED1841EF070F400056EFD /* bg.mp4 in Resources */,
 				AE9ED1861EF07F4600056EFD /* Assets.xcassets in Resources */,
 				AE08C63C1EF05C9900D3B760 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -455,8 +475,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE558C151EF0279200764620 /* ViewController.swift in Sources */,
+				AE72DAA51EF31DD50033BFF4 /* DLButton.swift in Sources */,
+				AE72DAA91EF32ABD0033BFF4 /* DefaultDLTheme.swift in Sources */,
+				AE558C151EF0279200764620 /* StartViewController.swift in Sources */,
+				AE72DAAB1EF32AC50033BFF4 /* Theme.swift in Sources */,
 				AE558C131EF0279200764620 /* AppDelegate.swift in Sources */,
+				AE72DAA71EF328490033BFF4 /* ThemeManager.swift in Sources */,
+				AE72DAAD1EF32E780033BFF4 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +506,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBD6D611EF08F0F003C8E18 /* Deck.swift in Sources */,
+				AE72DAA01EF1E5790033BFF4 /* StandardDeck.swift in Sources */,
 				AEBD6D631EF08F3F003C8E18 /* Card.swift in Sources */,
+				AE72DA9E1EF1E1440033BFF4 /* Dealer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,8 +516,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE72DA9C1EF1D5190033BFF4 /* StandardDeckSpec.swift in Sources */,
 				AEBD6D651EF090DD003C8E18 /* CardSpec.swift in Sources */,
-				AE558CE41EF03B4D00764620 /* logicTests.swift in Sources */,
+				AE72DAA21EF2DC1B0033BFF4 /* DeckSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +679,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JP2BMZS3A2;
 				INFOPLIST_FILE = "unit-test-targets/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lst.unit-test-targets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -666,6 +695,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JP2BMZS3A2;
 				INFOPLIST_FILE = "unit-test-targets/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lst.unit-test-targets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
