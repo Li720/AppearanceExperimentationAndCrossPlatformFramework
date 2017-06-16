@@ -25,5 +25,15 @@ class StartViewController: UIViewController {
         super.viewDidAppear(animated)
         startView.showOptions()
     }
+    
+    @IBAction func userDidSelectStandard(_ sender: Any) {
+            
+    }
+    
+    @IBAction func userDidSelectEvil(_ sender: Any) {
+    }
+    
+    @IBAction func userDidSelectXCode(_ sender: Any) {
+    }
 }
 

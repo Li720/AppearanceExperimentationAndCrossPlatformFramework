@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AE08C63B1EF05C9900D3B760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE558C161EF0279200764620 /* Main.storyboard */; };
 		AE08C63C1EF05C9900D3B760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE558C1B1EF0279200764620 /* LaunchScreen.storyboard */; };
+		AE42A0F61EF466B800919585 /* DealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE42A0F51EF466B800919585 /* DealViewController.swift */; };
+		AE42A0F81EF4673300919585 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE42A0F71EF4673300919585 /* CardCollectionViewCell.swift */; };
 		AE558C131EF0279200764620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558C121EF0279200764620 /* AppDelegate.swift */; };
 		AE558C151EF0279200764620 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558C141EF0279200764620 /* StartViewController.swift */; };
 		AE558C281EF0279200764620 /* unit_test_targetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE558C271EF0279200764620 /* unit_test_targetsTests.swift */; };
@@ -80,6 +82,8 @@
 /* Begin PBXFileReference section */
 		AE08C6391EF05BBC00D3B760 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AE08C63A1EF05BFD00D3B760 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		AE42A0F51EF466B800919585 /* DealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealViewController.swift; sourceTree = "<group>"; };
+		AE42A0F71EF4673300919585 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		AE558C0F1EF0279200764620 /* unit-test-targets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unit-test-targets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE558C121EF0279200764620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE558C141EF0279200764620 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 				AE72DAA61EF328490033BFF4 /* ThemeManager.swift */,
 				AE72DAA81EF32ABD0033BFF4 /* DefaultDLTheme.swift */,
 				AE72DAAA1EF32AC50033BFF4 /* Theme.swift */,
+				AE42A0F51EF466B800919585 /* DealViewController.swift */,
+				AE42A0F71EF4673300919585 /* CardCollectionViewCell.swift */,
 			);
 			path = "unit-test-targets";
 			sourceTree = "<group>";
@@ -475,12 +481,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE42A0F61EF466B800919585 /* DealViewController.swift in Sources */,
 				AE72DAA51EF31DD50033BFF4 /* DLButton.swift in Sources */,
 				AE72DAA91EF32ABD0033BFF4 /* DefaultDLTheme.swift in Sources */,
 				AE558C151EF0279200764620 /* StartViewController.swift in Sources */,
 				AE72DAAB1EF32AC50033BFF4 /* Theme.swift in Sources */,
 				AE558C131EF0279200764620 /* AppDelegate.swift in Sources */,
 				AE72DAA71EF328490033BFF4 /* ThemeManager.swift in Sources */,
+				AE42A0F81EF4673300919585 /* CardCollectionViewCell.swift in Sources */,
 				AE72DAAD1EF32E780033BFF4 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
