@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  unit-test-targets
-//
-//  Created by Pivotal on 6/13/17.
-//  Copyright © 2017 LST. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -15,10 +7,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        //setup UIAppearances
-        UIButton.appearance().layer.borderWidth = 2.0
-        UIButton.appearance().layer.borderColor = UIColor.red.cgColor
+        
+        ThemeManager.apply(StandardTheme(), whenIn: [StandardThemeContainer.self])
+        ThemeManager.apply(EvilTheme(), whenIn: [EvilThemeContainer.self])
+        ThemeManager.apply(XcodeTheme(), whenIn: [XcodeThemeContainer.self])
         
         return true
     }

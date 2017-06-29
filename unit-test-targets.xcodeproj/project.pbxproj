@@ -22,12 +22,17 @@
 		AE72DA9E1EF1E1440033BFF4 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DA9D1EF1E1440033BFF4 /* Dealer.swift */; };
 		AE72DAA01EF1E5790033BFF4 /* StandardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DA9F1EF1E5790033BFF4 /* StandardDeck.swift */; };
 		AE72DAA21EF2DC1B0033BFF4 /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA11EF2DC1B0033BFF4 /* DeckSpec.swift */; };
-		AE72DAA51EF31DD50033BFF4 /* DLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA31EF319D10033BFF4 /* DLButton.swift */; };
 		AE72DAA71EF328490033BFF4 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA61EF328490033BFF4 /* ThemeManager.swift */; };
-		AE72DAA91EF32ABD0033BFF4 /* DefaultDLTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA81EF32ABD0033BFF4 /* DefaultDLTheme.swift */; };
+		AE72DAA91EF32ABD0033BFF4 /* StandardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAA81EF32ABD0033BFF4 /* StandardTheme.swift */; };
 		AE72DAAB1EF32AC50033BFF4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAAA1EF32AC50033BFF4 /* Theme.swift */; };
 		AE72DAAD1EF32E780033BFF4 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72DAAC1EF32E780033BFF4 /* StartView.swift */; };
 		AE9ED1861EF07F4600056EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9ED1851EF07F4600056EFD /* Assets.xcassets */; };
+		AEA2AC0A1F02AE8E00416ADC /* standardtheme.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEA2AC061F02AD7300416ADC /* standardtheme.bundle */; };
+		AEA2AC1E1F02DDFC00416ADC /* EvilTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA2AC1D1F02DDFC00416ADC /* EvilTheme.swift */; };
+		AEA2AC201F02DE3B00416ADC /* eviltheme.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEA2AC1F1F02DE3B00416ADC /* eviltheme.bundle */; };
+		AEA2AC221F02FFF500416ADC /* xcodetheme.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEA2AC211F02FFF500416ADC /* xcodetheme.bundle */; };
+		AEA2AC241F03001900416ADC /* XcodeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA2AC231F03001900416ADC /* XcodeTheme.swift */; };
+		AEA2AC261F03F64E00416ADC /* DLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA2AC251F03F64E00416ADC /* DLButton.swift */; };
 		AEBD6D611EF08F0F003C8E18 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD6D601EF08F0F003C8E18 /* Deck.swift */; };
 		AEBD6D631EF08F3F003C8E18 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD6D621EF08F3F003C8E18 /* Card.swift */; };
 		AEBD6D651EF090DD003C8E18 /* CardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD6D641EF090DD003C8E18 /* CardSpec.swift */; };
@@ -77,6 +82,15 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEA2AC081F02AD8200416ADC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -105,12 +119,17 @@
 		AE72DA9D1EF1E1440033BFF4 /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
 		AE72DA9F1EF1E5790033BFF4 /* StandardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardDeck.swift; path = ../logic/StandardDeck.swift; sourceTree = "<group>"; };
 		AE72DAA11EF2DC1B0033BFF4 /* DeckSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckSpec.swift; sourceTree = "<group>"; };
-		AE72DAA31EF319D10033BFF4 /* DLButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLButton.swift; sourceTree = "<group>"; };
 		AE72DAA61EF328490033BFF4 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
-		AE72DAA81EF32ABD0033BFF4 /* DefaultDLTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDLTheme.swift; sourceTree = "<group>"; };
+		AE72DAA81EF32ABD0033BFF4 /* StandardTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardTheme.swift; sourceTree = "<group>"; };
 		AE72DAAA1EF32AC50033BFF4 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		AE72DAAC1EF32E780033BFF4 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		AE9ED1851EF07F4600056EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA2AC061F02AD7300416ADC /* standardtheme.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = standardtheme.bundle; sourceTree = "<group>"; };
+		AEA2AC1D1F02DDFC00416ADC /* EvilTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvilTheme.swift; sourceTree = "<group>"; };
+		AEA2AC1F1F02DE3B00416ADC /* eviltheme.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = eviltheme.bundle; sourceTree = "<group>"; };
+		AEA2AC211F02FFF500416ADC /* xcodetheme.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xcodetheme.bundle; sourceTree = "<group>"; };
+		AEA2AC231F03001900416ADC /* XcodeTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XcodeTheme.swift; sourceTree = "<group>"; };
+		AEA2AC251F03F64E00416ADC /* DLButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLButton.swift; sourceTree = "<group>"; };
 		AEBD6D601EF08F0F003C8E18 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		AEBD6D621EF08F3F003C8E18 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		AEBD6D641EF090DD003C8E18 /* CardSpec.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = CardSpec.swift; sourceTree = "<group>"; };
@@ -190,18 +209,22 @@
 			isa = PBXGroup;
 			children = (
 				AE558C121EF0279200764620 /* AppDelegate.swift */,
-				AE558C141EF0279200764620 /* StartViewController.swift */,
-				AE72DAAC1EF32E780033BFF4 /* StartView.swift */,
-				AE72DA9F1EF1E5790033BFF4 /* StandardDeck.swift */,
-				AE558C161EF0279200764620 /* Main.storyboard */,
-				AE558C1B1EF0279200764620 /* LaunchScreen.storyboard */,
-				AE558C1E1EF0279200764620 /* Info.plist */,
 				AE9ED1851EF07F4600056EFD /* Assets.xcassets */,
-				AE72DAA61EF328490033BFF4 /* ThemeManager.swift */,
-				AE72DAA81EF32ABD0033BFF4 /* DefaultDLTheme.swift */,
-				AE72DAAA1EF32AC50033BFF4 /* Theme.swift */,
-				AE42A0F51EF466B800919585 /* DealViewController.swift */,
 				AE42A0F71EF4673300919585 /* CardCollectionViewCell.swift */,
+				AE42A0F51EF466B800919585 /* DealViewController.swift */,
+				AEA2AC251F03F64E00416ADC /* DLButton.swift */,
+				AEA2AC1D1F02DDFC00416ADC /* EvilTheme.swift */,
+				AE558C1E1EF0279200764620 /* Info.plist */,
+				AE558C1B1EF0279200764620 /* LaunchScreen.storyboard */,
+				AE558C161EF0279200764620 /* Main.storyboard */,
+				AE72DA9F1EF1E5790033BFF4 /* StandardDeck.swift */,
+				AE72DAA81EF32ABD0033BFF4 /* StandardTheme.swift */,
+				AE72DAAC1EF32E780033BFF4 /* StartView.swift */,
+				AE558C141EF0279200764620 /* StartViewController.swift */,
+				AE72DAAA1EF32AC50033BFF4 /* Theme.swift */,
+				AE72DAA61EF328490033BFF4 /* ThemeManager.swift */,
+				AEA2AC051F02AD6200416ADC /* Themes */,
+				AEA2AC231F03001900416ADC /* XcodeTheme.swift */,
 			);
 			path = "unit-test-targets";
 			sourceTree = "<group>";
@@ -232,7 +255,6 @@
 				AEBD6D601EF08F0F003C8E18 /* Deck.swift */,
 				AEBD6D621EF08F3F003C8E18 /* Card.swift */,
 				AE72DA9D1EF1E1440033BFF4 /* Dealer.swift */,
-				AE72DAA31EF319D10033BFF4 /* DLButton.swift */,
 			);
 			path = logic;
 			sourceTree = "<group>";
@@ -246,6 +268,17 @@
 				AE72DAA11EF2DC1B0033BFF4 /* DeckSpec.swift */,
 			);
 			path = logicTests;
+			sourceTree = "<group>";
+		};
+		AEA2AC051F02AD6200416ADC /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				AEA2AC211F02FFF500416ADC /* xcodetheme.bundle */,
+				AEA2AC1F1F02DE3B00416ADC /* eviltheme.bundle */,
+				AEA2AC061F02AD7300416ADC /* standardtheme.bundle */,
+			);
+			name = Themes;
+			path = "Theme Bundles";
 			sourceTree = "<group>";
 		};
 		AEBD6D671EF09331003C8E18 /* Frameworks */ = {
@@ -279,6 +312,7 @@
 				AE558C0C1EF0279200764620 /* Frameworks */,
 				AE558C0D1EF0279200764620 /* Resources */,
 				AE558C6D1EF033B800764620 /* Embed Frameworks */,
+				AEA2AC081F02AD8200416ADC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -421,9 +455,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA2AC0A1F02AE8E00416ADC /* standardtheme.bundle in Resources */,
 				AE08C63B1EF05C9900D3B760 /* Main.storyboard in Resources */,
 				AE9ED1861EF07F4600056EFD /* Assets.xcassets in Resources */,
+				AEA2AC201F02DE3B00416ADC /* eviltheme.bundle in Resources */,
 				AE08C63C1EF05C9900D3B760 /* LaunchScreen.storyboard in Resources */,
+				AEA2AC221F02FFF500416ADC /* xcodetheme.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,13 +518,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA2AC241F03001900416ADC /* XcodeTheme.swift in Sources */,
 				AE42A0F61EF466B800919585 /* DealViewController.swift in Sources */,
-				AE72DAA51EF31DD50033BFF4 /* DLButton.swift in Sources */,
-				AE72DAA91EF32ABD0033BFF4 /* DefaultDLTheme.swift in Sources */,
+				AEA2AC1E1F02DDFC00416ADC /* EvilTheme.swift in Sources */,
+				AE72DAA91EF32ABD0033BFF4 /* StandardTheme.swift in Sources */,
 				AE558C151EF0279200764620 /* StartViewController.swift in Sources */,
 				AE72DAAB1EF32AC50033BFF4 /* Theme.swift in Sources */,
 				AE558C131EF0279200764620 /* AppDelegate.swift in Sources */,
 				AE72DAA71EF328490033BFF4 /* ThemeManager.swift in Sources */,
+				AEA2AC261F03F64E00416ADC /* DLButton.swift in Sources */,
 				AE42A0F81EF4673300919585 /* CardCollectionViewCell.swift in Sources */,
 				AE72DAAD1EF32E780033BFF4 /* StartView.swift in Sources */,
 			);

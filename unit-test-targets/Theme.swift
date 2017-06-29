@@ -1,12 +1,5 @@
-//
-//  Theme.swift
-//  unit-test-targets
-//
-//  Created by Pivotal on 6/15/17.
-//  Copyright © 2017 LST. All rights reserved.
-//
-
 import UIKit
+import logic
 
 protocol Theme {
     
@@ -14,6 +7,8 @@ protocol Theme {
     var buttonCornerRadius : CGFloat { get }
     var buttonBorderWidth : CGFloat { get }
     var buttonBorderColor : UIColor { get }
+    var buttonBackgroundColor : UIColor { get }
+    var buttonFont : UIFont { get }
     
     //Button - CTA
     var buttonCTACornerRadius : CGFloat { get }
@@ -25,4 +20,9 @@ protocol Theme {
     var buttonDangerBorderWidth : CGFloat { get }
     var buttonDangerBorderColor : UIColor { get }
     
+    //Card
+    var cardColorDictionary : Dictionary<Card.Suite,UIColor> { get }
+    var cardImageBundle: Bundle { get }
+    var cardCornerRadius : CGFloat { get }
+    var cardBackgroundColor : UIColor { get }
 }

@@ -1,15 +1,11 @@
-//
-//  StandardDeck.swift
-//  unit-test-targets
-//
-//  Created by Pivotal on 6/14/17.
-//  Copyright © 2017 LST. All rights reserved.
-//
-
 import Foundation
-struct StandardDeck : Deck {
+public struct StandardDeck : Deck {
+   
+    public init() {
+        
+    }
     
-    var cards = [
+    public var cards = [
         Card(suite: .diamond, value: .Ace),
         Card(suite: .diamond, value: .Two),
         Card(suite: .diamond, value: .Three),

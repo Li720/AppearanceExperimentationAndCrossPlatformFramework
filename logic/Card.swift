@@ -1,39 +1,32 @@
-//
-//  Card.swift
-//  logic
-//
-//  Created by Pivotal on 6/13/17.
-//  Copyright © 2017 LST. All rights reserved.
-//
-
 import Foundation
 
 public struct Card : Equatable, Hashable {
     
-    let suite : Suite
-    let value : Value
+    public let suite : Suite
+    public let value : Value
     
-    enum Suite {
-        case diamond
-        case club
-        case heart
-        case spade
+    public enum Suite : String {
+        case diamond = "diamonds"
+        case club = "clubs"
+        case heart = "hearts"
+        case spade = "spades"
+        
     }
     
-    enum Value {
-        case Ace
-        case Two
-        case Three
-        case Four
-        case Five
-        case Six
-        case Seven
-        case Eight
-        case Nine
-        case Ten
-        case Jack
-        case Queen
-        case King
+    public enum Value : String {
+        case Ace = "A"
+        case Two = "2"
+        case Three = "3"
+        case Four = "4"
+        case Five = "5"
+        case Six = "6"
+        case Seven = "7"
+        case Eight = "8"
+        case Nine = "9"
+        case Ten = "10"
+        case Jack = "J"
+        case Queen = "Q"
+        case King = "K"
     }
     
     public static func ==(lhs: Card, rhs: Card) -> Bool {

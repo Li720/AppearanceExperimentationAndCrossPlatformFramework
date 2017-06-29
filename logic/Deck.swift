@@ -1,22 +1,16 @@
-//
-//  Deck.swift
-//  logic
-//
-//  Created by Pivotal on 6/13/17.
-//  Copyright © 2017 LST. All rights reserved.
-//
 import Foundation
 
-protocol Deck {
+public protocol Deck {
     var cards : [Card] { get set }
     var count : Int { get }
+    init()
     func contains(_ value: Card.Value, of suite: Card.Suite) -> Bool
     mutating func add(_ card: Card)
     @discardableResult mutating func findAndRemove(_ value: Card.Value, of suite: Card.Suite) -> Card?
     @discardableResult mutating func findAndRemoveAll(_ value: Card.Value, of suite: Card.Suite) -> [Card]?
 }
 
-extension Deck {
+public extension Deck {
     var count: Int {
         get {
             return cards.count

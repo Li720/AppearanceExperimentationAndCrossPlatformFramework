@@ -1,11 +1,3 @@
-//
-//  unit_test_targetsUITests.swift
-//  unit-test-targetsUITests
-//
-//  Created by Pivotal on 6/13/17.
-//  Copyright © 2017 LST. All rights reserved.
-//
-
 import XCTest
 
 class unit_test_targetsUITests: XCTestCase {

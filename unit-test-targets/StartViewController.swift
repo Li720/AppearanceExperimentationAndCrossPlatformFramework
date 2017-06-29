@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  unit-test-targets
-//
-//  Created by Pivotal on 6/13/17.
-//  Copyright © 2017 LST. All rights reserved.
-//
-
 import UIKit
 import AVFoundation
 
@@ -27,13 +19,22 @@ class StartViewController: UIViewController {
     }
     
     @IBAction func userDidSelectStandard(_ sender: Any) {
-            
+        ThemeManager.apply(StandardTheme())
+        self.performSegue(withIdentifier: "presentDealer", sender: sender)
     }
     
     @IBAction func userDidSelectEvil(_ sender: Any) {
+        ThemeManager.apply(EvilTheme())
+        self.performSegue(withIdentifier: "presentDealer", sender: sender)
     }
     
     @IBAction func userDidSelectXCode(_ sender: Any) {
+        ThemeManager.apply(XcodeTheme())
+        self.performSegue(withIdentifier: "presentDealer", sender: sender)
+    }
+    
+    @IBAction func done(_ segue: UIStoryboardSegue) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
 
